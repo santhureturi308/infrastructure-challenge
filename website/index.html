@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Infrastructure Engineering Challenge - Modern AWS Static Website">
+    <meta name="author" content="John Smith">
+    <title>John Smith's Infrastructure Challenge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">This is John Smith's Website</h1>
+            <p class="subtitle">Infrastructure Engineering Challenge Solution</p>
+        </header>
+        
+        <main class="main-content">
+            <section class="intro-section">
+                <h2>Welcome to My Infrastructure Challenge</h2>
+                <p class="intro-text">
+                    This website demonstrates modern cloud infrastructure principles using AWS services, 
+                    Infrastructure as Code, and DevOps best practices.
+                </p>
+            </section>
+            
+            <section class="architecture-section">
+                <h3>Architecture Overview</h3>
+                <div class="architecture-flow">
+                    <div class="flow-item">Internet</div>
+                    <div class="arrow">→</div>
+                    <div class="flow-item">CloudFront CDN</div>
+                    <div class="arrow">→</div>
+                    <div class="flow-item">S3 Static Website</div>
+                    <div class="arrow">→</div>
+                    <div class="flow-item">Route 53 DNS</div>
+                </div>
+            </section>
+            
+            <section class="features-section">
+                <h3>Infrastructure Features</h3>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h4>Static Website Hosting</h4>
+                        <p>Amazon S3 configured for high-availability static website hosting</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>Global Content Delivery</h4>
+                        <p>CloudFront CDN for fast content delivery worldwide</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>Infrastructure as Code</h4>
+                        <p>Terraform for reproducible, version-controlled infrastructure</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>CI/CD Pipeline</h4>
+                        <p>GitHub Actions for automated testing and deployment</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>Security & Monitoring</h4>
+                        <p>CloudWatch monitoring, budget alerts, and security best practices</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>Cost Optimization</h4>
+                        <p>Optimized for minimal cost while maintaining production readiness</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tech-stack-section">
+                <h3>Technology Stack</h3>
+                <div class="tech-list">
+                    <div class="tech-category">
+                        <h4>Infrastructure</h4>
+                        <ul>
+                            <li>AWS S3 - Static website hosting</li>
+                            <li>AWS CloudFront - CDN and caching</li>
+                            <li>AWS Route 53 - DNS management</li>
+                            <li>AWS Certificate Manager - SSL/TLS</li>
+                        </ul>
+                    </div>
+                    <div class="tech-category">
+                        <h4>DevOps</h4>
+                        <ul>
+                            <li>Terraform - Infrastructure as Code</li>
+                            <li>GitHub Actions - CI/CD automation</li>
+                            <li>AWS CLI - Deployment tools</li>
+                            <li>CloudWatch - Monitoring and alerting</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="stats-section">
+                <h3>Performance Metrics</h3>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">99.9%</div>
+                        <div class="stat-label">Uptime SLA</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">< 100ms</div>
+                        <div class="stat-label">Global Latency</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">$1-5</div>
+                        <div class="stat-label">Monthly Cost</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3 min</div>
+                        <div class="stat-label">Deployment Time</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2024 John Smith - Infrastructure Engineering Challenge</p>
+                <p>Deployed via AWS Infrastructure | Managed with Terraform</p>
+                <div class="footer-links">
+                    <span>Version: 1.0.0</span>
+                    <span>|</span>
+                    <span>Environment: Production</span>
+                    <span>|</span>
+                    <span>Region: US-East-1</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Simple analytics and performance tracking
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Website loaded successfully');
+            console.log('Infrastructure: AWS S3 + CloudFront');
+            console.log('Deployment: Terraform + GitHub Actions');
+            
+            // Track page load time
+            window.addEventListener('load', function() {
+                const loadTime = performance.timing.loadEventEnd - performance.timing.navigationStart;
+                console.log('Page load time:', loadTime + 'ms');
+            });
+        });
+    </script>
+</body>
+</html>
