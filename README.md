@@ -68,5 +68,4 @@ aws s3 sync ../website s3://$(terraform output -raw s3_beta_name) --delete
 
 - **Security**: Encrypted backups and versioning. Secure management with strict IAM policies. 
 
-### C
 
